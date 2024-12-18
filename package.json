@@ -1,0 +1,12 @@
+{
+  "name": "consentpath",
+  "version": "0.1.0",
+  "description": "Clinical trial data access where authorisation is enforced by SQLite security views keyed on session claims, with a negative-authorisation test matrix.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/demo.ts"
+  }
+}
